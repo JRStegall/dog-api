@@ -48,7 +48,24 @@
           
           <div class="row">
               <!--- Begin Form --->
-                <div class="col-12 col-sm-4">
+                <div class="col-lg-4 col-sm-12 mt-3">
+                    <form class="border border-primary rounded p-4">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please Enter Valid Email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Please Enter Password">
+                        </div>
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
                     <form class="border border-primary rounded p-4">
                         <div class="form-group">
                           <label for="exampleInputEmail1">Email address</label>
@@ -68,7 +85,18 @@
                 </div>
 
                 <!----Begin Random Dog --->
-                <div class="col-12 col-md-8 border border-primary rounded p-4" >
+                <div class="col-lg-8 col-md-12 border border-primary rounded p-4 mt-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <button id="generateRandomDogo" type="button" class="btn btn-primary btn-lg btn-block">
+                                Generate Random Dogo
+                            </button>  
+                        </div>
+                        <div id="dogoContainer" class="col-12 pt-2">
+                            
+                        </div>
+                    </div>
+                </div>
                     <div class="row">
                         <div class="col-12 ">
                             <button id="generateRandomDogo"
