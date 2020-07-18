@@ -12,7 +12,7 @@ $(document).ready(function(){
     });
     function renderDogoImage(image){
         return `
-        <img src="${image}" class="mw-100 mh-100" />
+        <img src="${image}" class="mw-100 mh-100 mx-auto" style="width: 100%" />
         `;
     }
 });
